@@ -28,11 +28,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                   <a class="nav-link" href="sobre.html">Sobre</a>
                   <a class="nav-link" href="formacao.html">Formação</a>
                   <a class="nav-link" href="portfolio.html">Portfólio</a>
-                  <a class="nav-link" href="contato.html">Contato</a>
+                  <a class="nav-link active" href="contato.html">Contato</a>
                </div>
             </div>
          </div>
@@ -40,11 +40,30 @@
    </header>
 
    <main>
-
+      <section class="contato-container">
+         <div class="contato-form">
+            <div class="mb-3">
+               <label for="exampleFormControlInput1" class="form-label">Nome</label>
+               <input type="text" class="form-control" id="exampleFormControlInput1" required>
+            </div>
+            <div class="mb-3">
+               <label for="exampleFormControlInput1" class="form-label">Email</label>
+               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
+                  required>
+            </div>
+            <div class="mb-3">
+               <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+         </div>
+      </section>
    </main>
 
-   <footer>
-
+   <footer class="fixed-bottom">
+      <div>
+         <p>Desenvolvido por Filipe.</p>
+      </div>
    </footer>
 </body>
 

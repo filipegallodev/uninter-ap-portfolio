@@ -28,9 +28,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                   <a class="nav-link" href="sobre.html">Sobre</a>
-                  <a class="nav-link" href="formacao.html">Formação</a>
+                  <a class="nav-link active" href="formacao.html">Formação</a>
                   <a class="nav-link" href="portfolio.html">Portfólio</a>
                   <a class="nav-link" href="contato.html">Contato</a>
                </div>
@@ -40,11 +40,76 @@
    </header>
 
    <main>
-
+      <section>
+         <div class="formacao-container">
+            <div class="accordion" id="accordionExample">
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Escolaridade
+                     </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                     data-bs-parent="#accordionExample">
+                     <div class="accordion-body">
+                        <ul>
+                           <li>2021 - presente | Análise e Desenvolvimento de Sistemas - UNINTER</li>
+                           <hr>
+                           <li>2018 - 2019 | Segurança da Informação - FATEC de Americana</li>
+                           <hr>
+                           <li>2015 - 2017 | Informática Integrado ao Ensino Médio - ETEC Polivalente</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Cursos
+                     </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                     data-bs-parent="#accordionExample">
+                     <div class="accordion-body">
+                        <ul>
+                           <li>HTML5 e CSS3 - Alura</li>
+                           <hr>
+                           <li>JavaScript - Curso em Vídeo</li>
+                           <hr>
+                           <li>C# - Alura</li>
+                           <hr>
+                           <li>Python - Curso em Vídeo</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Idiomas
+                     </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                     data-bs-parent="#accordionExample">
+                     <div class="accordion-body">
+                        <ul>
+                           <li>Inglês - Intermediário</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
    </main>
 
-   <footer>
-
+   <footer class="fixed-bottom">
+      <div>
+         <p>Desenvolvido por Filipe.</p>
+      </div>
    </footer>
 </body>
 
